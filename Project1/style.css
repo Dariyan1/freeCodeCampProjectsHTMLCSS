@@ -1,0 +1,41 @@
+div#main {
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    background-color: #d4d4d4;
+}
+.img-div {
+    background-color: white;
+    width: 98%;
+    margin: auto;
+    max-height: 730px;
+}
+#image {
+    display: flex;
+    margin: auto;
+    width: 50%;
+}
+#img-caption {
+    text-align: center;
+    padding-bottom: 20px;
+}
+.bTitle {
+    text-align: center;
+    font-size: 25px;
+}
+.title {
+    text-align: center;
+    padding: 30px;
+    margin-bottom: -15px;
+    font-size: 4rem;
+}
+#tribute-info {
+    margin:0 28%;
+    font-size: 20px;
+}
+.pl {
+    text-align: center;
+    font-size: 22px;
+    
+}
