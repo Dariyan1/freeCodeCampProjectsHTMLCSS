@@ -1,0 +1,21 @@
+#header {
+    display: flex;
+    
+    align-items: center;
+}
+
+#nav-bar {
+    display: flex;
+}     
+#nav-bar li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+
+
+
+
