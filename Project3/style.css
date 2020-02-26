@@ -1,16 +1,47 @@
-#header {
-    display: flex;
-    
-    align-items: center;
-}
 
 #nav-bar {
     display: flex;
-}     
-#nav-bar li {
-    display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
+    list-style: none;
+}     
+#header-img {
+    display: flex;
+    margin: auto;
+}
+.nav-link {
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+#header {
+    position: fixed;
+    top: 0px;
+    right:500px;
+    left: 500px;
+    background: white;
+}
+#video {
+    margin-top: 200px;
+    background: gray;
+    padding: 20px;
+    
+}
+#form {
+    display: flex;
+    flex-direction: column;
+    margin: 0 40%;
+    justify-content: center;
+    align-items: center;
+    background: gray;
+    opacity: 0.7;
+    padding: 20px;
+}
+#submit {
+    border: 1px solid black;
+    background: white;
+    color: black;
+    padding: 20px;
 }
 
 
