@@ -1,0 +1,33 @@
+#navbar {
+    display: flex;
+    position: fixed;
+    top:0px;
+    left:0px;
+    background: white;
+    height: 100vh;
+    border: 2px solid black;
+    width: 12%; 
+    border-top: none;
+    border-bottom: none;
+}
+.section21 {
+    text-align: center;
+    font-size: 25px;
+    padding-bottom: 30px;
+}
+.section1 a {   
+    text-decoration: none;
+}
+#all {
+    margin-left: 13%;
+    font-size: 30px;
+}
+@media only screen and (max-width:600px) {
+    * {
+        font-size: 20px;
+    }
+    #navbar {
+        display: flex;
+        flex-direction: row;
+    }
+}
